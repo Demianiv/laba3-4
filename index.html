@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HelloKitty</title>
+  <link rel="stylesheet" href="css/style.css">
+  <div class="header">
+    <a href="#default" class="logo">Hello Kitty Shop ♡</a>
+    <div class="header-right">
+       <a class="active" href="#home">Home</a>
+      <a class="active" href="#home">Clothes</a>
+      <a class="active" href="#home">Accessories</a>
+      <a class="active" href="#home">Toys</a>
+      
+      <a  class="active"href="#contact">Contact</a>
+      <a class="active"href="#about">About</a>
+    </div>
+</head>
+</div>
+<div class="plates">
+ <div class=" platename">WHAT CAN YOU BUY</div> 
+<div class="oneplate">mainplate
+  <img claass="img" src="images3.png" alt="">
+</div>
+<div class="twoplate">
+  <div class="plate1">
+  <img class="img" src="images2.png" alt="width: 20x">
+  </div>
+  <div class="plate2">
+    <img class="img" src="images4.png" alt="">
+  </div>
+</a>  
+</div>
+
+<!--реєстрації-->
+
+<form class="registration">
+  <label for="Firstname">Firstname</label>
+  <input id="Firstname" placeholder="Firstname" type="text">
+<br> <br>
+  <label for="Lastname">Lastname</label>
+  <input id="Lastname" placeholder="Lastname" type="text">
+<br> <br>
+  <label for="Email">Email</label>
+  <input id="Email" placeholder="Email" type="email">  
+<br> <br>
+  <label for="Date">Date</label>
+  <input id="Date" type="date">
+<br> <br>
+  <label for="Password">Password</label>
+  <input id="Password" type="password">
+<br> <br>
+  <input type="submit" value="Submit">
+</form>
+
+<!--меню фільтр-->
+
+<br>
+<div class="platename">Filter</div>
+<form class="filter"> 
+  <select name="" id="">
+    <option value="Girl">Girl</option>
+    <option value="Boy">Boy</option>
+  </select>
+
+  <select name="" id="">
+    <option value="XS">XS</option>
+    <option value="S">S</option>
+    <option value="M">M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+
+  <select name="" id="">
+    <option value="From cheap to expensive">From cheap to expensive</option>
+    <option value="From expensive to cheap">from expensive to cheap</option>
+  </select>
+</form>
+
+<!--Меню-->
+<br>
+<div class="platename">Menu</div>
+<div class="scroll-container">
+    <span><img src="images2.png"></span>
+    <span><img src="images3.png"></span>
+    <span><img src="images4.png"></span> 
+    <span><img src="images2.png"></span>
+    <span><img src="images3.png"></span>
+    <span><img src="images4.png"></span> > 
+  </div>
+
+
+
+<script src="scripts/main.js">
+  let hoirzontScript = document.querySelector('.scrollmenu');
+</script>
+</body>
+
+</html>
+
+
